@@ -34,6 +34,7 @@ const reviewRouter = require('./routes/reviewRoutes');
 
 const viewRouter = require('./routes/viewRoutes');
 
+// Start express app
 const app = express();
 
 app.set('view engine', 'pug');
